@@ -63,8 +63,7 @@
 }
 
 .jumbotron {
-	background-image: url(./routes.jpg);
-	background-position: center;
+	background: url(../img/routes.jpg) center;
 }
 
 .title {
@@ -85,6 +84,11 @@ hr {
 	list-style: none;
 }
 
+/* .footer li a::before {
+	content: "»";
+	content: "\003e";
+} */
+
 .footer ul a {
 	color: white;
 }
@@ -95,4 +99,5 @@ hr {
 
 .footer ul a:hover {
 	color: rgb(12, 160, 12);
+	text-decoration: none;
 }
