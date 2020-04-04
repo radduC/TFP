@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    height: 900px;
+    width: 900px;
+}
+
+.exercitii a {
+    color: rgb(226, 6, 6);    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+a[href] {
+    font-style: oblique;
+}
+
+.exercitii {
+    margin: 30px 25px;
+}
+
+#Lorem {
+    background-color: darkslateblue;
+    color: gold;
+    text-indent: 5rem;
+}
+
+/* @media (min-width: 900px) {
+    body {
+        margin: auto;
+    }
+} */
